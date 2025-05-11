@@ -77,13 +77,13 @@
 - **透過選單**
   - 點按選單列中的 `🔨` 圖示
   - 選擇 **「Open Config」**
-  - 將提供的 `init.lua` 內容貼到開啟的設定檔中並儲存
+  - 將提供的 [`init.lua`](https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/init.lua) 內容拷貝貼到開啟的設定檔中並儲存
 
 - **透過 Finder**
   - 開啟 Finder
   - 選擇「前往」選單中的「前往檔案夾」/ 或使用快捷鍵 `Command + Shift + G`
   - 輸入路徑 `~/.hammerspoon/` 並點擊前往
-  - 將下載的 `init.lua` 檔案直接拖入此檔案夾內
+  - 將下載的 [`init.lua`](https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/init.lua) 檔案直接拖入此檔案夾內
 
 <br/>
 
