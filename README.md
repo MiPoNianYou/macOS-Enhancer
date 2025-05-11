@@ -77,17 +77,17 @@
 - **通过菜单**
   - 点按菜单栏中的 `🔨` 图标
   - 选择 **「Open Config」**
-  - 将提供的 `init.lua` 的内容粘贴到打开的配置文件中并存储
+  - 将提供的 [`init.lua`](https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/init.lua) 内容拷贝粘贴到打开的配置文件中并存储
 
 - **通过访达**
   - 打开 Finder
   - 选择「前往」菜单中的「前往文件夹」/ 或使用快捷键 `Command + Shift + G`
   - 输入路径 `~/.hammerspoon/` 并点击前往
-  - 将下载的 `init.lua` 文件直接拖入此文件夹内
+  - 将下载的 [`init.lua`](https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/init.lua) 文件直接拖入此文件夹内
 
 <br/>
 
-3. **激活配置**
+1. **激活配置**
 - 完成配置后 再次点按菜单栏中的 `🔨` 图标 并选择 **「Reload Config」**
 - Hammerspoon 会弹出配置加载成功通知 各种增强功能随之生效
 
