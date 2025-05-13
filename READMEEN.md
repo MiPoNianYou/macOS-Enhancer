@@ -32,13 +32,14 @@
 
 ## ✨ Feature Panorama
 
-### 🪄 Core Feature 
-- **💡 Supercharged CapsLock** - Transform the seldom-used `CapsLock` key into a **powerful modifier key**, remapped to `F13`, unlocking **infinite shortcut possibilities**.
+### 🪄 Core Feature Highlight
+- **💡 Supercharged CapsLock** - Transform the seldom-used `Caps Lock` key into a **powerful modifier key**, remapped to `F13`, unlocking **infinite shortcut possibilities**.
 - **🚀 Application Quick Launcher** - Use `⇪ + Specific Letter` to **quickly launch or focus** frequently used applications.
 - **⌨️ Cycle Input Methods** - Say goodbye to complex key combinations. Simply tap the `Shift ⇧` key to effortlessly **cycle through input methods**, without interfering with long-press actions or other shortcut combinations.
-- **☕️ System Stay-Awake** - Instantly toggle the system's sleep state with the `⇪ + P` shortcut. A `☕️` icon in the menu bar will indicate the current state.
+- **☕️ System Stay-Awake** - Instantly toggle the system's sleep state with the `⇪ + ⌃ + P` shortcut. A `☕️` icon in the menu bar will indicate the current state.
 - **📑 Application Tab Navigation** - In supported applications, use `⇪ + ←` and `⇪ + →` to seamlessly navigate between **tabs**.
 - **✍️ Markdown Formatting** - Combine `⇪ + ⌥ + Specific Key` for a fluid Markdown writing experience, eliminating the distraction of input method switching. Effortlessly apply **bold emphasis**, *light italics*, ~~strikethrough~~, embed `code snippets`, and create [link anchors](). All at your fingertips, in one seamless motion.
+- **🎵 Now Playing Menu Bar** - Instantly displays the currently playing track and artist from Spotify/Apple Music. Toggle visibility effortlessly with the `⇪ + ⌃ + S` shortcut.
 - **🔃 Instant Config Hot Reload** - Use the `⌘ + ⌥ + ⌃ + R` shortcut to **instantly apply** configuration changes without manually clicking Hammerspoon.
 - **🧰 Personalized Feature Customization** - Tailor your experience to your heart's content. Whether it's key bindings or various enhanced features, all can be easily **adjusted or disabled** to craft your ideal personal workflow.
 
@@ -47,20 +48,23 @@
 | ⌨️ Key Combination | ⚡️ Function Description |
 | :-: | :-: |
 | `Shift ⇧` | Cycle through **Input Methods** |
+| `⇪ + I` | Launch/Focus **System Settings** |
 | `⇪ + F` | Launch/Focus **Finder** |
 | `⇪ + T` | Launch/Focus **Terminal** |
+| `⇪ + M` | Launch/Focus **Activity Monitor** |
 | `⇪ + A` | Launch/Focus **Arc Browser** |
 | `⇪ + S` | Launch/Focus **Spotify** |
 | `⇪ + v` | Launch/Focus **VS Code** |
-| `⇪ + P` | Toggle **System Stay-Awake** Mode |
 | `⇪ + ←` | Switch to **Previous** Tab (App-dependent) |
 | `⇪ + →` | Switch to **Next** Tab (App-dependent) |
+| `⇪ + ⌃ + P` | Toggle **System Stay-Awake** Mode |
+| `⇪ + ⌥ + Q` | Markdown Formatting - **Blockquote** |
 | `⇪ + ⌥ + B` | Markdown Formatting - **Bold Text** |
 | `⇪ + ⌥ + I` | Markdown Formatting - **Italic Text** |
 | `⇪ + ⌥ + S` | Markdown Formatting - **Strikethrough Text** |
 | `⇪ + ⌥ + K` | Markdown Formatting - **Code Syntax** |
 | `⇪ + ⌥ + L` | Markdown Formatting - **Link Syntax** |
-| `⇪ + ⌥ + Q` | Markdown Formatting - **Blockquote** |
+| `⇪ + ⌃ + S` | Enable/Disable **Now Playing Menu Bar** |
 | `⌘ + ⌥ + ⌃ + R` | **Reload** Hammerspoon Config |
 
 ## 📖 Usage Guide
