@@ -16,10 +16,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/语言-简体中文-8caaee?colorA=303446&style=for-the-badge" alt="当前语言-简体中文">
-  <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/READMETW.md" title="切換到繁體中文">
+  <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/README-TW.md" title="切換到繁體中文">
     <img src="https://img.shields.io/badge/語言-繁體中文-51576d?colorA=303446&style=for-the-badge" alt="切換到繁體中文">
   </a>
-  <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/READMEEN.md" title="Switch To English">
+  <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/README-EN.md" title="Switch To English">
     <img src="https://img.shields.io/badge/Language-English-51576d?colorA=303446&style=for-the-badge" alt="Switch To English">
   </a>
 </p>
@@ -118,7 +118,7 @@
 
 **🌠 功能许愿** → [飞到**Discussions**祈祷](https://github.com/MiPoNianYou/macOS-Enhancer/discussions)
 
-<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" alt="Footer Line" /></p>
+<p align="center"><img src="" alt="Footer Line" /></p>
 
 <p align="center">
   <small>Copyright © 2025 <a href="https://github.com/MiPoNianYou" target="_blank">念柚</a></small>
