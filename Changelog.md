@@ -1,22 +1,27 @@
-# V1.1.0
+# V1.2.0
 
 <details>
 <summary>🌐 Simplified Chinese / 简体中文</summary>
 
-- **🎵 全新功能 - 菜单栏乐曲随行**
-    - **✨ 智能感知播放** - 新增「菜单栏乐曲随行」功能 可在菜单栏实时显示来自 **Spotify/Apple Music** 正在播放的曲目信息
-    - **💡 智能状态感知** - 智能检测相关音乐应用的运行状态 仅在应用运行时才激活信息更新 并在应用关闭后自动暂停 **极致优化**闲置时的资源消耗
-    - **💾 偏好持久记忆** - 功能的启用/禁用状态会**自动保存** 即使配置重载后 也会自动恢复用户上次的设定
-    - **🎛️ 快捷显示控制** - 通过 `⇪ + ⌃ + S` 快捷键 **轻松切换**功能的启用与禁用状态
-    - **✏️ 客制显示调校** - 新增 `MUSIC_TRACK_DISPLAY_MAX_LENGTH` 配置项 支持自定义菜单栏乐曲信息的**最大显示长度** 满足个性化需求
-    - **😶 默认静默状态** - 功能在首次加载配置时 将默认为**禁用**状态 避免不必要的打扰
+### ✨ 新增核心功能
 
-- **🧰 功能增强优化**
-    - **🚀 快速应用扩展** - 「应用快速启动器」列表中新增对了「**系统设置 & 活动监视器」**的快速启动支持
+- **🔉 输出设备切换器**
+    - **一键快捷切换** - 新增「输出设备切换器」功能 通过快捷键 `⇪ CapsLock + ⌃ Control + A` 即可在所有可用的音频输出设备间**循环切换** 无论是内置输出 / 蓝牙耳机抑或是外接显示器音响 切换状态 行云流水
+    - **智能即时反馈** - 每次切换均伴有**清晰的系统通知** 准确告知当前激活的音频设备
 
-- **🛠️ 底层逻辑优化**
-    - **🛡️ 休眠逻辑调整** - 「系统防休眠」的快捷键已调整为 `⇪ + ⌃ + P` 并优化了在配置退出时的清理逻辑 确保状态被正确重置 释放系统资源
-    - **📝 MD 模式精进** - 统一并优化了 Markdown 各格式化操作的内部实现 采用更通用的辅助函数
+- **☁️ 配置档更新检测**
+    - **自动更新检测** - 引入「自动更新检测」机制 配置加载后及每隔24小时 脚本会**自动从云端获取最新**的配置版本信息
+    - **配置新版速递** - 当检测到新版本可用时 将通过系统通知温馨提醒 确保不错过任何功能升级与体验优化
+    - **手动触发检查** - 新增快捷键 `⌘ Command + ⌥ Option + ⌃ Control + U` 可随时**手动触发**更新检查 即时了解配置状态
+
+### 🛠️ 功能调整优化
+
+- **🎵 乐曲随行微调**
+    - **视觉风格精炼** - 菜单栏显示的曲目与艺人之间的分隔符从 `-` **优化**为更显精致的 `·`
+    - **显示长度调整** - 对乐曲随行显示的最大长度限制从32调整为26 **以适应**更多的菜单栏场景
+
+- **🚀 快速启动扩展**
+    - 新增对 **Telegram** 的快速启动支持 现在可通过 `⇪ CapsLock + G` 快速聚焦或启动 Telegram
 
 </details>
 
@@ -25,20 +30,25 @@
 <details>
 <summary>🌐 Traditional Chinese / 繁體中文</summary>
 
-- **🎵 全新功能 - 選單列樂曲隨行**
-    - **✨ 智慧感知播放** - 新增「選單列樂曲隨行」功能 可在選單列即時顯示來自 **Spotify/Apple Music** 正在播放的曲目資訊
-    - **💡 智慧狀態感知** - 智慧偵測相關音樂應用程式的執行狀態 僅在應用程式執行時才啟用資訊更新 並在應用程式關閉後自動暫停 **極致最佳化**閒置時的資源消耗
-    - **💾 偏好設定記憶** - 功能的啟用/停用狀態會**自動儲存** 即使設定檔重新載入後 也會自動恢復使用者上次的設定
-    - **🎛️ 快捷顯示控制** - 透過 `⇪ + ⌃ + S` 快捷鍵 **輕鬆切換**功能的啟用與停用狀態
-    - **✏️ 客製顯示調整** - 新增 `MUSIC_TRACK_DISPLAY_MAX_LENGTH` 設定項 支援自訂選單列樂曲資訊的**最大顯示長度** 滿足個人化需求
-    - **😶 預設停用狀態** - 功能在首次載入設定檔時，將預設為**停用**狀態，避免不必要的干擾
+### ✨ 新增核心功能
 
-- **🧰 功能增強優化**
-    - **🚀 快速應用擴充** - 「程式快速啟動器」清單中新增對「**系統設定 & 活動監視器**」的快速啟動支援
+- **🔉 輸出裝置切換器**
+    - **一鍵快捷切換** - 新增「輸出裝置切換器」功能 透過快捷鍵 `⇪ CapsLock + ⌃ Control + A` 即可在所有可用的音訊輸出裝置間**循環切換** 無論是內建輸出／藍牙耳機抑或是外接螢幕喇叭 切換狀態 行雲流水
+    - **智慧即時回饋** - 每次切換均伴有**清晰的系統通知** 準確告知當前啟用的音訊裝置
 
-- **🛠️ 底層邏輯優化**
-    - **🛡️ 休眠邏輯調整** - 「系統防止休眠」的快捷鍵已調整為 `⇪ + ⌃ + P` 並最佳化了在設定關閉時的清理邏輯 確保狀態被正確重設 釋放系統資源
-    - **📝 MD 模式精進** - 統一並最佳化了 Markdown 各種格式化操作的內部實作 採用更通用的輔助函式
+- **☁️ 設定檔更新檢查**
+    - **自動更新檢查** - 引入「自動更新檢查」機制 設定檔載入後及每隔24小時 腳本會**自動從雲端獲取最新**的設定檔版本資訊
+    - **設定檔新版通知** - 當偵測到新版本可用時 將透過系統通知溫馨提醒 確保不錯過任何功能升級與體驗優化
+    - **手動觸發檢查** - 新增快捷鍵 `⌘ Command + ⌥ Option + ⌃ Control + U` 可隨時**手動觸發**更新檢查 即時了解設定檔狀態
+
+### 🛠️ 功能調整優化
+
+- **🎵 樂曲隨行微調**
+    - **視覺風格精鍊** - 選單列顯示的曲目與演出者之間的分隔符號從 `-` **優化**為更顯精緻的 `·`
+    - **顯示長度調整** - 對樂曲隨行顯示的最大長度限制從32調整為26 **以適應**更多選單列情境
+
+- **🚀 快速啟動擴充**
+    - 新增對 **Telegram** 的快速啟動支援 現在可透過 `⇪ CapsLock + G` 快速聚焦或啟動 Telegram
 
 </details>
 
@@ -47,20 +57,25 @@
 <details>
 <summary>🌐 English / 英文</summary>
 
-- **🎵 New Feature - Now Playing Menu Bar**
-    - **✨ Real-time Track Display** - Introduced the "Now Playing Menu Bar" feature, displaying real-time track information for currently playing songs from **Spotify/Apple Music** directly on your menu bar.
-    - **💡 Smart Status Detection** - Intelligently detects the running status of supported music applications, activating updates only when an app is running and automatically pausing upon closure, **drastically optimizing** resource consumption during idle periods.
-    - **💾 Persistent Preferences** - The feature's enabled/disabled state is **automatically saved**, ensuring it restores to the user's last setting even after configuration reloads.
-    - **🎛️ Quick Toggle Control** - **Easily toggle** the feature's enabled/disabled state using the `⇪ + ⌃ + S` shortcut.
-    - **✏️ Customizable Display Length** - Added the `MUSIC_TRACK_DISPLAY_MAX_LENGTH` configuration option, allowing users to customize the **maximum display length** of track information on the menu bar to better suit their preferences.
-    - **😶 Disabled by Default** - The feature is **disabled** by default upon initial configuration load to prevent unnecessary interruptions.
+### ✨ New Core Features
 
-- **🧰 Feature Enhancements & Optimizations**
-    - **🚀 Expanded Quick Launch Support** - Added quick launch support for '**System Settings & Activity Monitor**' to the 'Application Quick Launcher' list.
+- **🔉 Audio Device Switcher**
+    - **One-Tap Audio Switching** - Introduced the "Audio Device Switcher" feature. Effortlessly cycle through all your audio output devices—be it built-in speakers, Bluetooth headphones, or external monitor speakers—with the `⇪ CapsLock + ⌃ Control + A` hotkey. Enjoy a truly fluid and seamless switching experience.
+    - **Intelligent Instant Feedback** - Each switch triggers a clear system notification, accurately identifying the currently active audio device.
 
-- **🛠️ Under-the-Hood Enhancements**
-    - **🛡️ System Stay-Awake Refinement** - The shortcut for 'System Stay-Awake' is now `⇪ + ⌃ + P`, and cleanup logic upon configuration exit has been optimized to ensure the state is correctly reset and system resources are reliably freed.
-    - **📝 Markdown Formatting Refinement** - Unified and optimized the internal implementation of various Markdown formatting operations by adopting more generic helper functions.
+- **☁️ Configuration Profile Update Detection**
+    - **Automatic Update Detection** - Introduced an "Automatic Update Detection" mechanism. Upon configuration load, and every 24 hours thereafter, the script automatically fetches the latest configuration version information from the cloud.
+    - **Prompt New Version Notifications** - When a new version is detected, a friendly system notification will promptly alert you, ensuring you never miss out on feature upgrades and experience enhancements.
+    - **Manual Update Check** - Added the `⌘ Command + ⌥ Option + ⌃ Control + U` hotkey to manually trigger an update check at any time, allowing you to instantly know the current configuration status.
+
+### 🛠️ Feature Adjustments & Optimizations
+
+- **🎵 Now Playing Display Fine-tuning**
+    - **Visual Style Refinement** - The separator between the track title and artist in the menu bar has been optimized from `-` to a more refined `·`.
+    - **Display Length Adjustment** - The maximum display length for Now Playing information has been adjusted from 32 to 26 characters to better accommodate various menu bar scenarios.
+
+- **🚀 Quick Launch Expansion**
+    - Added Quick Launch support for **Telegram**. You can now quickly focus or launch Telegram using `⇪ CapsLock + G`.
 
 </details>
 
