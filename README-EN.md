@@ -18,7 +18,7 @@
   <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/README.md" title="切换到简体中文">
     <img src="https://img.shields.io/badge/语言-简体中文-51576d?colorA=303446&style=for-the-badge" alt="切换到简体中文">
   </a>
-  <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/READMETW.md" title="切換到繁體中文">
+  <a href="https://github.com/MiPoNianYou/macOS-Enhancer/blob/main/README-TW.md" title="切換到繁體中文">
     <img src="https://img.shields.io/badge/語言-繁體中文-51576d?colorA=303446&style=for-the-badge" alt="切換到繁體中文">
   </a>
   <img src="https://img.shields.io/badge/Language-English-8caaee?colorA=303446&style=for-the-badge" alt="The Current Language Is English">
@@ -32,14 +32,16 @@
 
 ## ✨ Feature Panorama
 
-### 🪄 Core Feature Highlight
+### 🪄 Core Feature Overview
 - **💡 Supercharged CapsLock** - Transform the seldom-used `Caps Lock` key into a **powerful modifier key**, remapped to `F13`, unlocking **infinite shortcut possibilities**.
 - **🚀 Application Quick Launcher** - Use `⇪ + Specific Letter` to **quickly launch or focus** frequently used applications.
 - **⌨️ Cycle Input Methods** - Say goodbye to complex key combinations. Simply tap the `Shift ⇧` key to effortlessly **cycle through input methods**, without interfering with long-press actions or other shortcut combinations.
 - **☕️ System Stay-Awake** - Instantly toggle the system's sleep state with the `⇪ + ⌃ + P` shortcut. A `☕️` icon in the menu bar will indicate the current state.
+- **🔊 Audio Device Switcher** - Instantly cycle through your connected **audio output devices**—whether it's built-in speakers, Bluetooth headphones, or external speakers—using the `Caps Lock + Control + A` hotkey for a seamless, single-press transition.
 - **📑 Application Tab Navigation** - In supported applications, use `⇪ + ←` and `⇪ + →` to seamlessly navigate between **tabs**.
 - **✍️ Markdown Formatting** - Combine `⇪ + ⌥ + Specific Key` for a fluid Markdown writing experience, eliminating the distraction of input method switching. Effortlessly apply **bold emphasis**, *light italics*, ~~strikethrough~~, embed `code snippets`, and create [link anchors](). All at your fingertips, in one seamless motion.
 - **🎵 Now Playing Menu Bar** - Instantly displays the currently playing track and artist from Spotify/Apple Music. Toggle visibility effortlessly with the `⇪ + ⌃ + S` shortcut.
+- **🔄 Automatic CFG Update** - Upon profile launch (or "On startup") and every 24 hours thereafter, the script automatically and silently checks for the latest cloud version. If an update is found, you'll be alerted via notification. You can also manually trigger a check using `Command + Option + Control` to ensure your experience is always current.
 - **🔃 Instant Config Hot Reload** - Use the `⌘ + ⌥ + ⌃ + R` shortcut to **instantly apply** configuration changes without manually clicking Hammerspoon.
 - **🧰 Personalized Feature Customization** - Tailor your experience to your heart's content. Whether it's key bindings or various enhanced features, all can be easily **adjusted or disabled** to craft your ideal personal workflow.
 
@@ -51,13 +53,14 @@
 | `⇪ + I` | Launch/Focus **System Settings** |
 | `⇪ + F` | Launch/Focus **Finder** |
 | `⇪ + T` | Launch/Focus **Terminal** |
-| `⇪ + M` | Launch/Focus **Activity Monitor** |
 | `⇪ + A` | Launch/Focus **Arc Browser** |
 | `⇪ + S` | Launch/Focus **Spotify** |
-| `⇪ + v` | Launch/Focus **VS Code** |
+| `⇪ + V` | Launch/Focus **VS Code** |
+| `⇪ + G` | Launch/Focus **Telegram** |
+| `⇪ + ⌃ + P` | Toggle **System Stay-Awake** Mode |
+| `⇪ + ⌃ + A` | Cycle through **Output Device** |
 | `⇪ + ←` | Switch to **Previous** Tab (App-dependent) |
 | `⇪ + →` | Switch to **Next** Tab (App-dependent) |
-| `⇪ + ⌃ + P` | Toggle **System Stay-Awake** Mode |
 | `⇪ + ⌥ + Q` | Markdown Formatting - **Blockquote** |
 | `⇪ + ⌥ + B` | Markdown Formatting - **Bold Text** |
 | `⇪ + ⌥ + I` | Markdown Formatting - **Italic Text** |
@@ -65,6 +68,7 @@
 | `⇪ + ⌥ + K` | Markdown Formatting - **Code Syntax** |
 | `⇪ + ⌥ + L` | Markdown Formatting - **Link Syntax** |
 | `⇪ + ⌃ + S` | Enable/Disable **Now Playing Menu Bar** |
+| `⌘ + ⌥ + ⌃ + U` | Manual **Update** Check |
 | `⌘ + ⌥ + ⌃ + R` | **Reload** Hammerspoon Config |
 
 ## 📖 Usage Guide
